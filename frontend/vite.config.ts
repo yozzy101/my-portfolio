@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
+  base: '/retro-personal-portfolio/', // Add this line
   resolve: {
     alias: {
       '@': path.resolve(__dirname),
