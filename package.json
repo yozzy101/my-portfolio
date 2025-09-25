@@ -1,9 +1,12 @@
 {
-  "name": "leap-app",
+  "name": "frontend",
   "version": "1.0.0",
   "type": "module",
   "packageManager": "bun",
-  "workspaces": [
-    "frontend"
-  ]
+  "dependencies": { ... },
+  "devDependencies": { ... },
+  "optionalDependencies": { ... },
+  "scripts": {
+    "build": "vite build"
+  }
 }
